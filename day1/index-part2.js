@@ -49,7 +49,7 @@ let lines = [];
 let totalSum = 0;
 
 try {
-  const data = fs.readFileSync('./advent-of-codes/day1/input.txt', 'utf8');
+  const data = fs.readFileSync('./day1/input.txt', 'utf8');
   lines = data.toString().split('\n');
 } catch (err) {
   console.error(err);
